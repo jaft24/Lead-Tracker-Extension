@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    padding: 10px;
+    min-width: 420px;
+}
+.input_el{
+   width: 100%;
+   height: 25px;
+   border: 2px solid green;
+   margin-bottom: 10px;
+   border-radius: 5px;
+   box-sizing: border-box;
+}
+.ext-btn1{
+  padding: 10px;
+  background-color: green;
+  color: white;
+  font-size: x-small;
+  border: none;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+.ext-btn2{
+    padding: 10px;
+    background-color: transparent;
+    color: green;
+    font-size: x-small;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.output_el{
+    display: none;
+    margin: 10px 0px 0px;
+    color: green;
+}
+.output_el a{
+    color: green;
+}
+.output_el li{
+    list-style: none;
+    margin: 5px;
+    font-size: medium;
+}
